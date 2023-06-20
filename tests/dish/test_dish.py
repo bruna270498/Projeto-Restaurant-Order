@@ -19,7 +19,7 @@ def test_dish():
 
     ingredient1 = Ingredient("manteiga")
 
-    dish.add_ingredient_dependency(ingredient1, 300)
+    dish.add_ingredient_dependency(ingredient1, 200)
 
     assert ingredient1 in dish.get_ingredients()
 
